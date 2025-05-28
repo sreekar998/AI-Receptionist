@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "supervisor"
+version = "0.1.0"
+description = ""
+authors = ["bdev644 <bdev69644@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+streamlit = "*"
+langchain = "*"
+langchain-openai = "^0.3.18"
+python-dotenv = "^1.1.0"
+langgraph = "^0.4.7"
+langmem = "^0.0.27"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
