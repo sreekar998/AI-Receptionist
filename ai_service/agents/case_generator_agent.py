@@ -1,5 +1,5 @@
 """
-Case Generator Agent: Handles patient intake, CRUD, and classification.
+Case Generator Agent: Handles patient intake and CRUD and classification.
 """
 from langchain_openai import ChatOpenAI
 from langchain.agents import AgentExecutor, create_openai_functions_agent
